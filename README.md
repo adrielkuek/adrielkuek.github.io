@@ -6,7 +6,7 @@ draft: false
 ---
 
 <p align="center">
-  <img src="/media/icons/custom/while(true)_research.png" alt="while(True){ Research } Banner" width="100%">
+  <img src="assets/media/icons/custom/while(true)_research.png" alt="while(True){ Research } Banner" width="100%">
 </p>
 
 ---
@@ -15,7 +15,7 @@ draft: false
 
 <div class="profile-left">
 
-<img src="/media/Adriel_Portrait_armsfold.png" alt="Adriel Kuek" width="220" style="border-radius:18px;">
+<img src="assets/media/Adriel_Portrait_armsfold.png" alt="Adriel Kuek" width="220" style="border-radius:18px;">
 
 </div>
 
