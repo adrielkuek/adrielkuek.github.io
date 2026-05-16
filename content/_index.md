@@ -6,6 +6,19 @@ date: 2026-05-16
 type: landing
 
 sections:
+  - block: markdown
+    content:
+      title: ''
+      subtitle: ''
+      text: |-
+        <p class="while-true-banner">
+          <img src="/media/while-true-research.png" alt="while(True) { Research }" loading="eager" />
+        </p>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['1rem', 0, 0, 0]
+
   - block: resume-biography-3
     content:
       # Profile to display — references data/authors/me.yaml
