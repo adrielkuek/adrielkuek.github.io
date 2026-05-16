@@ -6,7 +6,7 @@ title: Adriel Kuek
 # <div align="center">Banner Placeholder</div>
 
 <p align="center">
-  <img src="/assets/media/icons/while(true)_research.png" alt="Banner" width="100%">
+  <img src="/assets/media/icons/custom/while(true)_research.png" alt="Banner" width="100%">
 </p>
 
 ---
