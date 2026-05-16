@@ -15,7 +15,7 @@ title: Adriel Kuek
 
 |  |  |
 |:---:|:---|
-| <img src="/assets/profile.png" width="220" style="border-radius:18px;"> | 
+| <img src="/assets/media/icons/custom/Adriel_Portrait_armsfold.png" width="220" style="border-radius:18px;"> | 
 
 # Adriel Kuek
 
