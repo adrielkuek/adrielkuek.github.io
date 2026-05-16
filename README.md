@@ -1,21 +1,25 @@
 ---
-layout: default
-title: Adriel Kuek
+title: "Adriel Kuek"
+description: "AI Researcher, Technical Leader, Foundation Models, Agentic Systems"
+date: 2026-05-16
+draft: false
 ---
 
-# <div align="center">Banner Placeholder</div>
-
 <p align="center">
-  <img src="/assets/media/icons/custom/while(true)_research.png" alt="Banner" width="100%">
+  <img src="/media/icons/custom/while(true)_research.png" alt="while(True){ Research } Banner" width="100%">
 </p>
 
 ---
 
-<div align="center">
+<div class="homepage-profile">
 
-|  |  |
-|:---:|:---|
-| <img src="/assets/media/Adriel_Portrait_armsfold.png" width="220" style="border-radius:18px;"> | 
+<div class="profile-left">
+
+<img src="/media/Adriel_Portrait_armsfold.png" alt="Adriel Kuek" width="220" style="border-radius:18px;">
+
+</div>
+
+<div class="profile-right">
 
 # Adriel Kuek
 
@@ -35,6 +39,8 @@ Currently leading research efforts in Foundation Models and emerging AI technolo
 
 </div>
 
+</div>
+
 ---
 
 # About
@@ -42,6 +48,7 @@ Currently leading research efforts in Foundation Models and emerging AI technolo
 I’m currently a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, where I lead research efforts in Foundation Models and emerging AI technologies for defence and national security applications.
 
 Over the past 15+ years, I’ve wandered through:
+
 - Signal Processing
 - Embedded Systems
 - Large-Scale Video Analytics
@@ -53,6 +60,7 @@ Over the past 15+ years, I’ve wandered through:
 Eventually landing in the wonderfully chaotic world of AI and Machine Learning.
 
 These days, my interests revolve around:
+
 - Sovereign Multimodal & Language Foundation Models
 - Agentic AI
 - Autonomous Research Systems
@@ -62,6 +70,7 @@ These days, my interests revolve around:
 - Multimodal Alignment
 
 I’m particularly interested in how we move AI systems from mere *“next-token statistical predictors”* toward systems that are:
+
 - adaptive
 - collaborative
 - grounded
@@ -72,18 +81,23 @@ I’m particularly interested in how we move AI systems from mere *“next-token
 # Current Research Threads
 
 ## Foundation Models
+
 Building sovereign multimodal and language foundation models for defence-centric applications.
 
 ## Agentic AI
+
 Exploring collaborative autonomous research systems and long-horizon AI workflows.
 
 ## Autonomous Research
+
 Investigating systems capable of planning, experimentation, evaluation, and iterative self-improvement.
 
 ## World Models
+
 Researching representations of dynamics, causality, memory, and reasoning in complex environments.
 
 ## Multimodal Understanding
+
 Bridging language, vision, video, structured knowledge, and reasoning systems.
 
 ---
@@ -91,27 +105,31 @@ Bridging language, vision, video, structured knowledge, and reasoning systems.
 # Selected Publications
 
 ## Pro-Cap — ACM MM 2023
+
 Leveraging frozen vision-language models for hateful meme detection.
 
 ## TotalDefMeme — 2023
+
 A multimodal meme dataset for Total Defence and Singapore-context misinformation analysis.
 
 ## Dynamic Scene Graph Generation — 2025
+
 Investigating what off-the-shelf multimodal models can achieve for scene graph understanding.
 
 ## Soft Unification with Knowledge Graph Embeddings — ICML 2025
+
 Improving symbolic-neural reasoning through knowledge graph embedding methods.
 
 <br>
 
-📚 Full publication list available on:
-- [Google Scholar](https://scholar.google.com/citations?user=JBB2mf8AAAAJ&hl=en)
+📚 Full publication list available on [Google Scholar](https://scholar.google.com/citations?user=JBB2mf8AAAAJ&hl=en).
 
 ---
 
 # Mentorship & Research Guidance
 
 I’ve had the privilege of mentoring students on AI research projects that secured recognition at:
+
 - SSEF
 - ISEF
 
@@ -120,23 +138,20 @@ Which constantly reminds me that:
 > Curiosity scales faster than compute budgets.
 
 Beyond student mentorship, I also work closely with:
+
 - pre-university interns
 - undergraduate researchers
 - graduate students
 - PhD attachments
 
-Most brainstorming sessions eventually drift into:
-- research ideation
-- hypothetical AI systems
-- autonomous agents
-- strange edge-case thought experiments
-- questionable “what if we just try this?” moments
+Most brainstorming sessions eventually drift into research ideation, hypothetical AI systems, autonomous agents, strange edge-case thought experiments, and questionable “what if we just try this?” moments.
 
 ---
 
 # Experiments & Musings
 
 This site is my little corner of the internet for:
+
 - research notes
 - technical experiments
 - project logs
@@ -147,7 +162,7 @@ This site is my little corner of the internet for:
 
 Some posts may be polished and structured.
 
-Others may resemble a hastily scripted markdown file written at 2AM after reading too many arXiv papers.
+Others may resemble a hastily scripted Markdown file written at 2AM after reading too many arXiv papers.
 
 Both are part of the process.
 
