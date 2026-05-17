@@ -1,33 +1,59 @@
 ---
-title: 'Experience'
-date: 2023-10-24
-type: landing
-
-design:
-  spacing: '5rem'
-
-# Note: `username` refers to the user's folder name in `content/authors/`
-
-# Page sections
-sections:
-  - block: resume-experience
-    content:
-      username: me
-    design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
-    content:
-      title: Skills & Hobbies
-      username: me
-  - block: resume-awards
-    content:
-      title: Awards
-      username: me
-  - block: resume-languages
-    content:
-      title: Languages
-      username: me
+title: "Experience"
+date: 2026-05-16
 ---
+
+## Professional Experience
+
+### DSO National Laboratories
+
+**Lab Director · Principal Member of Technical Staff**  
+*Present*
+
+Leading research in Foundation Models and emerging AI technologies for defence and national security applications. Research spans sovereign multimodal and language foundation models, agentic AI systems, and autonomous research workflows.
+
+### Previous Roles
+
+Over 15+ years of experience across:
+- Signal Processing
+- Embedded Systems
+- Large-Scale Video Analytics
+- Computer Vision
+- Multimodal AI
+- Foundation Models
+- Autonomous Research Systems
+
+---
+
+## Research Interests
+
+- Sovereign Multimodal & Language Foundation Models
+- Agentic AI
+- Autonomous Research Systems
+- World Models
+- Reasoning Architectures
+- Neurosymbolic Systems
+- Multimodal Alignment
+
+---
+
+## Education
+
+- Ph.D. — National University of Singapore
+
+---
+
+## Skills
+
+- **AI/ML:** Foundation Models, Multimodal Learning, Computer Vision, NLP, Graph Neural Networks
+- **Systems:** Large-Scale Distributed Systems, MLOps, GPU Clusters
+- **Leadership:** Research Strategy, Team Building, Technical Roadmapping
+- **Languages:** Python, PyTorch, JAX, CUDA, C/C++
+
+---
+
+## Languages
+
+- English (Native)
+- Chinese (Fluent)
+- Japanese (Basic)

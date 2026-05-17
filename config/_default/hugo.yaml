@@ -1,65 +1,69 @@
-# Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
-# Website URL
-baseURL: 'https://example.com/'
-
-############################
-## LANGUAGE
-############################
-
+baseURL: 'https://adrielkuek.github.io/'
+locale: en
 defaultContentLanguage: en
-hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
-removePathAccents: true
+title: 'Adriel Kuek'
+theme: "hugo-narrow"
 
-############################
-## PAGE OPTIONS
-############################
+hasCJKLanguage: false
+enableEmoji: false
 
-cascade:
-  - target:
-      path: /slides/**
-      kind: page
-    outputs: [HTML, present]
+mainSections: ["posts"]
 
-############################
-## ADVANCED
-############################
+permalinks:
+  posts: /posts/:slug/
+  pages: /:slug/
 
-build:
-  writeStats: true
-enableGitInfo: false
-summaryLength: 30
 pagination:
-  pagerSize: 10
-enableEmoji: true
-enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-disableAliases: true
-outputs:
-  home: [HTML, RSS, headers, redirects, backlinks]
-  section: [HTML, RSS]
-imaging:
-  resampleFilter: lanczos
-  quality: 90
-  anchor: smart
-  hint: picture
-timeout: 600000
+  pagerSize: 6
+  path: "page"
+
 taxonomies:
   author: authors
   tag: tags
-  publication_type: publication_types
+  category: categories
+  series: series
+
 markup:
-  _merge: deep
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      extras:
+        delete:
+          enable: true
+        insert:
+          enable: true
+        mark:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+      strikethrough: true
   highlight:
+    codeFences: true
+    guessSyntax: false
     lineNos: false
-security:
-  _merge: deep
-sitemap:
-  _merge: deep
+    lineNumbersInTable: false
+    noClasses: false
+    style: github
+    tabWidth: 2
+
+outputs:
+  home: ["HTML", "RSS", "JSON", "WebAppManifest"]
+
+outputFormats:
+  WebAppManifest:
+    mediaType: "application/manifest+json"
+    baseName: "site"
+    isPlainText: true
+
+module:
+  hugoVersion:
+    extended: true
+    min: 0.158.0

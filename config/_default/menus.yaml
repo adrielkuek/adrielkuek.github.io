@@ -1,17 +1,64 @@
-# Navigation Links
-#   To link a homepage section, use `/#<section-id>` where <section-id> matches the
-#   `id:` of a section in `content/_index.md`.
-
 main:
-  - name: Bio
-    url: /
+  - name: About
+    pageRef: /about
     weight: 10
-  - name: Research
-    url: /#research
-    weight: 20
-  - name: Publications
-    url: /#publications
-    weight: 30
+    params:
+      icon: about
+
   - name: Experience
-    url: experience/
+    pageRef: /experience
+    weight: 20
+    params:
+      icon: archive
+
+  - name: Posts
+    pageRef: /posts
+    weight: 30
+    params:
+      icon: posts
+
+footer:
+  - name: About
+    pageRef: /about
+    weight: 10
+    params:
+      icon: about
+
+  - name: Experience
+    pageRef: /experience
+    weight: 20
+    params:
+      icon: archive
+
+  - name: RSS Feed
+    url: /index.xml
+    weight: 30
+    params:
+      icon: rss
+
+social:
+  - name: GitHub
+    url: https://github.com/adrielkuek
+    weight: 10
+    params:
+      icon: github
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/adrielkuek/
+    weight: 20
+    params:
+      icon: linkedin
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=JBB2mf8AAAAJ&hl=en
+    weight: 30
+    params:
+      icon: star
+  - name: X
+    url: https://x.com/adriel_kuek
     weight: 40
+    params:
+      icon: twitter
+  - name: Email
+    url: mailto:adrielkuek@gmail.com
+    weight: 50
+    params:
+      icon: email

@@ -1,290 +1,167 @@
-# ══════════════════════════════════════════════════════════════════════════════
-# HUGO BLOX CONFIGURATION
-# Schema: hugoblox.com/schema/v2
-# Tutorial: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# ══════════════════════════════════════════════════════════════════════════════
-hugoblox:
-  schema: "2.0"
+# Site meta
+description: "Adriel Kuek — Lab Director and Principal MTS at DSO National Laboratories. Research in sovereign foundation models, agentic AI, and autonomous research systems."
+keywords: ["AI", "Machine Learning", "Foundation Models", "Agentic AI", "Research", "Multimodal", "Computer Vision"]
+defaultAuthor: "Adriel Kuek"
+language: "en"
+shortName: "Adriel Kuek"
+images:
+  - "/images/og-default.avif"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # IDENTITY
-  # Site-level branding (for people/profiles, use the author system in content/authors/)
-  # ────────────────────────────────────────────────────────────────────────────
-  identity:
-    # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Adriel Kuek"
-    # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
-    # Schema.org type for structured data
-    type: person # person | organization | local_business
-    # Short tagline displayed on your site
-    tagline: "AI Research · Foundation Models · Agentic Systems"
-    # Site meta description for search engines and social sharing
-    description: "Adriel Kuek — Lab Director and Principal MTS at DSO National Laboratories.
-      Research in sovereign foundation models, agentic AI, and autonomous research systems."
-    # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "adriel_kuek" # Twitter/X handle for Twitter Cards (without @)
+favicon:
+  svg: "/favicon.svg"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # THEME
-  # Color and visual design system
-  # ────────────────────────────────────────────────────────────────────────────
-  theme:
-    # Mode: 'light', 'dark', or 'system' (follows OS preference)
-    mode: system
-    # Theme pack: name from data/themes/ or { light: "x", dark: "y" } for mix-and-match
-    pack: "default"
-    # Optional: Override theme pack colors
-    colors:
-      primary: "blue"   # ink-blue accent for links, CTAs, focus rings
-      secondary: "slate"
-      neutral: "slate"  # tinted neutrals — never pure #000/#fff
-    # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
-    surfaces:
-      background: ""
-      foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
+# Author info (displayed on home page author section)
+author:
+  name: "Adriel Kuek"
+  title: "Lab Director · Principal Member of Technical Staff"
+  description: "AI Research · Foundation Models · Agentic Systems. Building sovereign multimodal AI, agentic systems, and autonomous research workflows at DSO National Laboratories."
+  avatar: "/images/avatar.png"
+  social:
+    - name: "GitHub"
+      url: "https://github.com/adrielkuek"
+      icon: "github"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/adrielkuek/"
+      icon: "linkedin"
+    - name: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=JBB2mf8AAAAJ&hl=en"
+      icon: "star"
+    - name: "X"
+      url: "https://x.com/adriel_kuek"
+      icon: "twitter"
+    - name: "Email"
+      url: "mailto:adrielkuek@gmail.com"
+      icon: "email"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # TYPOGRAPHY
-  # Font and text sizing
-  # ────────────────────────────────────────────────────────────────────────────
-  typography:
-    # Theme pack: name from data/fonts/
-    pack: "academic"
+# Header
+header:
+  sticky: true
+  logo:
+    image: ""
+    link: "/"
+  showThemeSwitch: true
+  showDarkModeSwitch: true
+  showLanguageSwitch: false
+  languageSwitchMode: "dropdown"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LAYOUT
-  # Spacing and shape tokens
-  # ────────────────────────────────────────────────────────────────────────────
-  layout:
-    # Border radius: 'none', 'sm', 'md', 'lg', or 'full'
-    radius: "md"
-    # Spacing density: 'compact', 'comfortable', or 'spacious'
-    spacing: "comfortable"
-    # Avatar shape in author profiles
-    avatar_shape: rounded # circle | square | rounded
+dock: "scroll"
+contentWidth: "56rem"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # HEADER
-  # Site header and navigation bar
-  # ────────────────────────────────────────────────────────────────────────────
-  header:
-    enable: true
-    # Header style variant
-    style: navbar # navbar | navbar-simple | minimal
-    # Stick to top on scroll
-    sticky: true
-    # Menu alignment
-    align: center # left | center | right
-    # Feature toggles
-    search: true
-    theme_toggle: true
-    theme_picker: true
-    language_switcher: true
-    # Call-to-action button
-    cta:
-      enable: false
-      text: ""
-      url: ""
+toc:
+  enabled: true
+  position: "center"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # FOOTER
-  # Site footer
-  # ────────────────────────────────────────────────────────────────────────────
-  footer:
-    # Footer style variant
-    style: minimal # minimal | columns | centered
-    language_switcher: true
-    # Custom footer text (HTML supported)
-    text: ""
+colorScheme: "slate"
+themes:
+  default:
+    name: "Default"
+    order: 1
+  claude:
+    name: "Claude"
+    order: 2
+  bumblebee:
+    name: "Bumblebee"
+    order: 3
+  emerald:
+    name: "Emerald"
+    order: 4
+  nord:
+    name: "Nord"
+    order: 5
+  sunset:
+    name: "Sunset"
+    order: 6
+  abyss:
+    name: "Abyss"
+    order: 7
+  dracula:
+    name: "Dracula"
+    order: 8
+  amethyst:
+    name: "Amethyst"
+    order: 9
+  slate:
+    name: "Slate"
+    order: 10
+  twitter:
+    name: "Twitter"
+    order: 11
+  minimal:
+    name: "Minimal"
+    order: 12
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COPYRIGHT
-  # Legal notices and licensing
-  # ────────────────────────────────────────────────────────────────────────────
-  copyright:
-    # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. This work is licensed under {license}"
-    license:
-      type: cc # cc | custom
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+# Home page
+home:
+  recentPostsCount: 5
+  contentOrder:
+    - author-section
+    - page-content
+    - recent-posts
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEO
-  # Search engine optimization - overrides and technical settings
-  # ────────────────────────────────────────────────────────────────────────────
-  seo:
-    # Browser tab title override (defaults to identity.name if not set)
-    title: ""
-    # For local_business identity type only
-    location:
-      address:
-        street: ""
-        city: ""
-        region: ""
-        postal_code: ""
-        country: ""
-      coordinates:
-        latitude: null
-        longitude: null
-      phone: ""
-    # AI/LLM crawler guidance (llms.txt)
-    ai:
-      allow:
-        - /
-      disallow: []
-      note: "Guidance for AI crawlers - customize to match your public content."
-      contact: ""
+# Post config
+post:
+  showRelated: true
+  relatedPostsCount: 3
+  license:
+    show: true
+    author: "Adriel Kuek"
+    name: "CC BY-NC-SA 4.0"
+    description: "This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License."
+    url: "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    displayName: "CC BY-NC-SA 4.0"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # CONTENT
-  # Content rendering and behavior
-  # ────────────────────────────────────────────────────────────────────────────
-  content:
-    # Math rendering
-    math:
-      enable: false
-    # Table of contents
-    toc:
-      enable: true
-    # Reading time estimates
-    reading_time:
-      enable: true
-    # Academic citations
-    citations:
-      style: apa # apa | mla | chicago | ieee
+comments:
+  enabled: false
+  system: "giscus"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SEARCH
-  # Site search
-  # ────────────────────────────────────────────────────────────────────────────
-  search:
-    enable: true
-    # Trending/suggested search terms
-    suggestions: []
-    # Quick action shortcuts in search modal
-    quick_actions: []
+analytics:
+  enabled: false
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # COMMENTS
-  # User comments system
-  # ────────────────────────────────────────────────────────────────────────────
-  comments:
-    enable: false
-    provider: "" # giscus | disqus
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
-    disqus:
-      shortname: ""
+katex:
+  enabled: true
+  delimiters:
+    - left: "$$"
+      right: "$$"
+      display: true
+    - left: "$"
+      right: "$"
+      display: false
+    - left: "\\("
+      right: "\\)"
+      display: false
+    - left: "\\["
+      right: "\\]"
+      display: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # ANALYTICS
-  # Traffic and behavior analytics
-  # ────────────────────────────────────────────────────────────────────────────
-  analytics:
-    google:
-      measurement_id: "" # Google Analytics 4: G-XXXXXXXXXX
-    google_tag_manager:
-      container_id: "" # GTM-XXXXXXX
-    plausible:
-      domain: ""
-    fathom:
-      site_id: ""
-    pirsch:
-      site_id: ""
-    clarity:
-      project_id: ""
-    baidu:
-      site_id: ""
+mermaid:
+  enabled: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # VERIFICATION
-  # Search engine site verification codes
-  # ────────────────────────────────────────────────────────────────────────────
-  verification:
-    google: ""
-    bing: ""
-    baidu: ""
-    yandex: ""
-    pinterest: ""
-    naver: ""
+gallery:
+  enabled: true
+  defaultLayout: justified
+  gap: 10
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # REPOSITORY
-  # Source code repository for "Edit this page" links
-  # ────────────────────────────────────────────────────────────────────────────
-  repository:
-    enable: false
-    url: "" # e.g., https://github.com/username/repo
-    branch: main
-    content_dir: content
+lightbox:
+  enabled: true
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # LOCALE
-  # Regional formatting preferences
-  # ────────────────────────────────────────────────────────────────────────────
-  locale:
-    date_format: "Jan 2, 2006" # Go time format
-    time_format: "3:04 PM"
-    address_format: en-us
+codeblock:
+  collapse:
+    enabled: true
+    defaultState: expanded
+    autoCollapseLines: 30
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # SECURITY
-  # Security headers and policies (requires Netlify integration)
-  # ────────────────────────────────────────────────────────────────────────────
-  security:
-    csp:
-      policy: ""
-      report_only: false
-    frame_options: allow # deny | sameorigin | allow - allow enables iframe embedding
-    permissions_policy: ""
+readingProgress:
+  enabled: true
+  showOnHomepage: false
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # PRIVACY
-  # Privacy and compliance features
-  # ────────────────────────────────────────────────────────────────────────────
-  privacy:
-    enable: false
-    anonymize_analytics: true
+dateFormat:
+  full: ":date_full"
+  long: ":date_long"
+  medium: ":date_medium"
+  short: ":date_short"
 
-  # ────────────────────────────────────────────────────────────────────────────
-  # DEBUG
-  # Development and debugging (hidden in production)
-  # ────────────────────────────────────────────────────────────────────────────
-  debug:
-    enable: false
-    hud:
-      position: bottom-left # top-left | top-right | bottom-left | bottom-right
-      opacity: 1.0
-    export_logs: true
-
-  # ────────────────────────────────────────────────────────────────────────────
-  # PREMIUM
-  # Premium features and creator program (affiliates)
-  # ────────────────────────────────────────────────────────────────────────────
-  pro:
-    # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
-    hide_attribution: false
-
-    # Affiliate referral code for rewards program
-    # Join affiliate program: https://hugoblox.com/affiliates
-    affiliate_code: ""
+timeFormat:
+  full: ":time_full"
+  long: ":time_long"
+  medium: ":time_medium"
+  short: ":time_short"
