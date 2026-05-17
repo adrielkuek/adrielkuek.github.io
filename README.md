@@ -15,7 +15,7 @@ draft: false
 
 <div class="profile-left">
 
-<img src="assets/media/Adriel_Portrait_armsfold.png" alt="Adriel Kuek" width="220" style="border-radius:18px;">
+<img src="assets\media\authors\Adriel_Portrait_Clean.png" alt="Adriel Kuek" width="220" style="border-radius:18px;">
 
 </div>
 
