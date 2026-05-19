@@ -33,12 +33,12 @@ author:
 
 <div style="text-align: justify; line-height: 1.75;">
 
-<p style="margin-bottom: 1.25rem;">I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.</p>
+I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical Staff</strong> at <strong>DSO National Laboratories</strong>, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
 
-<p style="margin-bottom: 1.25rem;">My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.</p>
+My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
 
-<p style="margin-bottom: 1.25rem;">Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models.</p>
+Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models.
 
-<p style="margin-bottom: 0;">I'm particularly interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are **adaptive, collaborative, grounded, and operationally useful in complex environments**.</p>
+I'm particularly interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
 
 </div>
