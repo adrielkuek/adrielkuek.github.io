@@ -30,9 +30,6 @@ author:
 </p>
 
 ---
-
-## About
-
 I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
 
 My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
