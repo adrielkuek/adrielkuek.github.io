@@ -1,5 +1,5 @@
 # Site meta
-description: "Adriel Kuek — Lab Director and Principal MTS at DSO National Laboratories. Research in sovereign foundation models, agentic AI, and autonomous research systems."
+description: "Adriel Kuek — Lab Director and PMTS at DSO National Laboratories. Research in sovereign foundation models, agentic AI, and autonomous research systems."
 keywords: ["AI", "Machine Learning", "Foundation Models", "Agentic AI", "Research", "Multimodal", "Computer Vision"]
 defaultAuthor: "Adriel Kuek"
 language: "en"
@@ -97,6 +97,7 @@ home:
     - author-section
     - page-content
     - recent-posts
+    - featured-projects.html
 
 # Post config
 post:
