@@ -97,6 +97,7 @@ home:
     - author-section
     - page-content
     - recent-posts
+    - publications-list.html
     - featured-projects.html
 
 # Post config

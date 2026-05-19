@@ -19,25 +19,39 @@ links:
     description: "Singapore's national defence research organisation"
 ---
 
+
+
 ## About Me
 
-I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in Foundation Models and emerging AI technologies for defence and national security applications.
+I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
 
-My work spans sovereign multimodal and language foundation models, agentic AI systems, autonomous research workflows, world models, and reasoning architectures. I've spent 15+ years moving across signal processing, embedded systems, large-scale video analytics, computer vision, and multimodal AI — eventually landing in the wonderfully chaotic world of AI and machine learning.
+My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
+
+Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually ladning in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models.
 
 ## Research Philosophy
 
 I'm interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are:
 
-- **Adaptive** — capable of responding to novel situations without retraining
+- **Adaptive** — capable of responding to novel and dynamic situations without retraining
 - **Collaborative** — working alongside humans as genuine partners in discovery
 - **Grounded** — connected to real-world dynamics, causality, and constraints
 - **Operationally Useful** — delivering value in complex, high-stakes environments
 
-## Current Focus
+## Current Research Threads
 
-- Sovereign Multimodal & Language Foundation Models
-- Agentic AI and Autonomous Research Systems
-- World Models and Reasoning Architectures
-- Multimodal Alignment and Understanding
-- Foundation Model Evaluation
+**Foundation Models** — Building sovereign multimodal and language foundation models for defence-centric applications.
+
+**Agentic AI** — Exploring collaborative autonomous research systems and long-horizon AI workflows for complex task completion.
+
+**World Models** — Representations of dynamics, causality, memory, and reasoning in complex environments.
+
+**Multimodal Understanding** — Bridging language, image, video, structured knowledge, and reasoning systems.
+
+**Autonomous Research** — Systems capable of planning, experimentation, evaluation, and iterative self-improvement.
+
+## Mentorship & Research Guidance
+
+I've had the privilege of mentoring students on AI research projects that secured recognition at **SSEF** and **ISEF** — a constant reminder that curiosity scales faster than compute budgets.
+
+Beyond student mentorship, I work closely with pre-university interns, undergraduate researchers, graduate students, and PhD attachments. Most brainstorming sessions eventually drift into research ideation, hypothetical AI systems, and questionable *"just try lah and see what happens"* moments.
