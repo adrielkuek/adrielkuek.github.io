@@ -1,0 +1,52 @@
+{{/* Publications list — shows most recent publications on the home page */}}
+
+{{ $pubs := where .Site.RegularPages "Section" "publications" }}
+{{ $pubs := $pubs.ByDate.Reverse }}
+{{ $limit := default 10 .Site.Params.home.recentPublicationsCount }}
+
+{{ if $pubs }}
+  <section class="mb-6">
+    <div class="mb-6">
+      <h2 class="text-foreground text-2xl font-bold">
+        {{ T "home.publications" | default "Publications" }}
+      </h2>
+    </div>
+
+    <ol class="list-none space-y-3 pl-0">
+      {{ range first $limit $pubs }}
+        <li class="border-b border-border/50 pb-3 last:border-0">
+          <div class="flex flex-col gap-1">
+            <a
+              href="{{ .RelPermalink }}"
+              class="text-foreground hover:text-primary font-medium transition-colors duration-200"
+            >
+              {{ .Title }}
+            </a>
+            {{ with .Params.authors }}
+              <p class="text-muted text-sm italic">
+                {{ delimit (split . ",") " · " }}
+              </p>
+            {{ end }}
+            {{ if .Params.venue or .Params.year }}
+              <p class="text-muted text-sm">
+                {{ with .Params.venue }}{{ . }}{{ end }}{{ if and . .Params.year }} · {{ end }}{{ with .Params.year }}{{ . }}{{ end }}
+              </p>
+            {{ end }}
+          </div>
+        </li>
+      {{ end }}
+    </ol>
+
+    {{ if gt (len $pubs) $limit }}
+      <div class="mt-6 text-center">
+        <a
+          href="{{ `/publications/` | relLangURL }}"
+          class="text-primary hover:text-primary/80 font-medium inline-flex items-center gap-1 transition-colors duration-200"
+        >
+          {{ T "home.viewAll" | default "View All Publications" }}
+          {{ partial "features/icon.html" (dict "name" "arrow-right" "size" "sm" "ariaLabel" "") }}
+        </a>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

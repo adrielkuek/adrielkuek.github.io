@@ -5,7 +5,7 @@ main:
     params:
       icon: about
 
-  - name: Curriculum Vitae
+  - name: Experience
     pageRef: /cv
     weight: 20
     params:
@@ -24,7 +24,7 @@ footer:
     params:
       icon: about
 
-  - name: Curriculum Vitae
+  - name: Experience
     pageRef: /cv
     weight: 20
     params:
