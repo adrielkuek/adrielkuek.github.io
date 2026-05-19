@@ -4,5 +4,5 @@ authors: "X Cui, JA Bhoi, CW Peng, A Kuek, SN Lim"
 venue: "arXiv preprint arXiv:2503.15846"
 year: 2025
 type: "preprint"
-url: "https://arxiv.org/abs/2503.15846"
+link: "https://arxiv.org/abs/2503.15846"
 ---
