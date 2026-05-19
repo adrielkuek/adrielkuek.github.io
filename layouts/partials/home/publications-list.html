@@ -27,9 +27,11 @@
                 {{ delimit (split . ",") " · " }}
               </p>
             {{ end }}
-            {{ if .Params.venue or .Params.year }}
+            {{ $venue := index .Params "venue" }}
+            {{ $year := index .Params "year" }}
+            {{ if or $venue $year }}
               <p class="text-muted text-sm">
-                {{ with .Params.venue }}{{ . }}{{ end }}{{ if and . .Params.year }} · {{ end }}{{ with .Params.year }}{{ . }}{{ end }}
+                {{ with $venue }}{{ . }}{{ end }}{{ if and $venue $year }} · {{ end }}{{ with $year }}{{ . }}{{ end }}
               </p>
             {{ end }}
           </div>
