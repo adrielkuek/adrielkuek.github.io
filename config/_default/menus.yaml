@@ -5,8 +5,8 @@ main:
     params:
       icon: about
 
-  - name: Experience
-    pageRef: /experience
+  - name: Curriculum Vitae
+    pageRef: /cv
     weight: 20
     params:
       icon: archive
@@ -24,17 +24,17 @@ footer:
     params:
       icon: about
 
-  - name: Experience
-    pageRef: /experience
+  - name: Curriculum Vitae
+    pageRef: /cv
     weight: 20
     params:
       icon: archive
 
-  - name: RSS Feed
-    url: /index.xml
+  - name: Publications
+    url: /publications
     weight: 30
     params:
-      icon: rss
+      icon: book-open
 
 social:
   - name: GitHub

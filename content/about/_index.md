@@ -19,8 +19,6 @@ links:
     description: "Singapore's national defence research organisation"
 ---
 
-
-
 ## About Me
 
 I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.

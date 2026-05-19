@@ -1,5 +1,5 @@
 ---
-title: "Experience"
+title: "Curriculum Vitae"
 date: 2026-05-16
 ---
 
