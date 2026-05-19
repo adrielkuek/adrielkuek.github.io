@@ -7,7 +7,7 @@ tags: ["ICML", "VLMs", "multimodal", "research", "DSO"]
 categories: ["AI Research"]
 ---
 
-<img src="images/Going2ICML2026.avif" alt="Going to ICML 2026" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1.5rem;" />
+<img src="/images/Going2ICML2026.avif" alt="Going to ICML 2026" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1.5rem;" />
 
 Late in announcing, but not abating in excitement — I'm glad to see through the hard work of **Yuriel Ryan**, together with **Hei Man Ip**, **Paul Liang** and **Roy Ka-Wei Lee** in the acceptance of our paper:
 
