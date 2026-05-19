@@ -26,7 +26,7 @@ author:
 ---
 
 <p style="text-align: center; margin: 0; padding: 0.5rem 0;">
-  <img src="/images/while-true-research.png" alt="while(True) { Research }" style="max-width: 520px; width: 100%; height: auto; image-rendering: pixelated; image-rendering: crisp-edges;" />
+  <img src="static/images/while-true-research.png" alt="while(True) { Research }" style="max-width: 520px; width: 100%; height: auto; image-rendering: pixelated; image-rendering: crisp-edges;" />
 </p>
 
 ---
