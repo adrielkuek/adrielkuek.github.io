@@ -1,0 +1,64 @@
+{{ define "main" }}
+  <div class="mx-auto px-4 py-6">
+    <header class="mb-8">
+      <h1 class="text-foreground mb-4 text-3xl font-bold">
+        {{ .Title }}
+      </h1>
+      {{ if .Content }}
+        <div class="prose prose-neutral dark:prose-invert max-w-none">
+          {{ .Content }}
+        </div>
+      {{ end }}
+    </header>
+
+    {{ $pubs := where .Site.RegularPages "Section" "publications" }}
+    {{ $pubs := $pubs.ByDate.Reverse }}
+
+    {{ if $pubs }}
+      <ul class="space-y-6">
+        {{ range $pubs }}
+          <li class="border-b border-border/50 pb-6 last:border-0">
+            <div class="flex flex-col gap-1">
+              <h2 class="text-foreground text-xl font-semibold">
+                {{ .Title }}
+              </h2>
+              {{ with .Params.authors }}
+                <p class="text-muted italic">
+                  {{ delimit (split . ",") " · " }}
+                </p>
+              {{ end }}
+              {{ $venue := index .Params "venue" }}
+              {{ $year := index .Params "year" }}
+              {{ if or $venue $year }}
+                <p class="text-muted text-sm">
+                  {{ with $year }}{{ . }}{{ end }}{{ if and $venue $year }} · {{ end }}{{ with $venue }}{{ . }}{{ end }}
+                </p>
+              {{ end }}
+              {{ with .Params.link }}
+                <p class="text-sm">
+                  <a
+                    href="{{ . }}"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-primary hover:text-primary/80 transition-colors duration-200"
+                  >
+                    Paper URL &rarr;
+                  </a>
+                </p>
+              {{ end }}
+              {{ with .Params.abstract }}
+                <p class="text-muted-foreground mt-2 leading-relaxed">
+                  {{ . }}
+                </p>
+              {{ end }}
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <div class="py-16 text-center">
+        <p class="text-muted-foreground">No publications yet.</p>
+      </div>
+    {{ end }}
+  </div>
+{{ end }}
