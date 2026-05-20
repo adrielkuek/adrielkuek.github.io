@@ -93,6 +93,7 @@ themes:
 # Home page
 home:
   recentPostsCount: 5
+  recentPublicationsCount: 5
   contentOrder:
     - author-section
     - page-content
