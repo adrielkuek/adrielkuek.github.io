@@ -5,6 +5,6 @@ year: 2023
 venue: "ACM Multimedia 2023"
 type: "conference"
 date: 2023-10-01
-link: ""
+link: "https://arxiv.org/abs/2308.08088"
 abstract: "Proposes a probing-based captioning approach to leverage frozen pre-trained vision-language models for hateful meme detection. Prompts a PVLM with hateful content-related questions and uses the answers as image captions (Pro-Cap), so captions contain information critical for detection. Validated on three benchmarks, demonstrating effectiveness and generalization."
 ---

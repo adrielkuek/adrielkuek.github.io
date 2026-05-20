@@ -2,7 +2,7 @@
 title: "Learning Generative Knowledge Graph Completion via Path Supervision from Link Predictors"
 authors: "Xuanming Cui, Chionh Wei Peng, Adriel Kuek, Ser-Nam Lim"
 year: 2026
-venue: "NeurIPS 2026 Conference Submission"
+venue: "NeurIPS 2026 Conference Submission (Review)"
 type: "conference"
 date: 2026-05-01
 link: "https://openreview.net/forum?id=4m7fPjJjJj"

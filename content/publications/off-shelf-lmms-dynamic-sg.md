@@ -2,7 +2,7 @@
 title: "A Closer Look at Dynamic Scene Graph Generation in the Era of Multimodal Large Language Models"
 authors: "Xuanming Cui, Jaiminkumar Ashokbhai Bhoi, Chionh Wei Peng, Adriel Kuek, Ser-Nam Lim"
 year: 2026
-venue: "NeurIPS 2026 Conference Submission"
+venue: "NeurIPS 2026 Conference Submission (Review)"
 type: "conference"
 date: 2026-05-04
 link: "https://openreview.net/forum?id=4m7jJjJjJj"
