@@ -6,20 +6,20 @@ summary: "Career journey, education and projects"
 
 A 15+ year journey spanning signal processing, embedded systems, computer vision, multimodal AI, and foundation models — all within the mission-driven context of defence and national security research.
 
-## Laboratory Director — Sep 2025 — Present | DSO National Laboratories, Singapore
+## Laboratory Director — Sep 2025 to Present | DSO National Laboratories, Singapore
 
 - R&D director spearheading foundation models, advanced analytics and emerging AI domains.
 - Mentoring and overseeing a team of researchers solving next-generation challenges in defence and national security.
 - Responsible for strategic technology planning, applied machine learning and foundation model development.
 
-## Principal Member of Technical Staff — Jul 2025 — Present | DSO National Laboratories, Singapore
+## Principal Member of Technical Staff — Jul 2025 to Present | DSO National Laboratories, Singapore
 
 - Principal architect and tech research lead for computer vision, multi-modal learning, foundation models and machine learning.
 - Driving strategic planning for next-generation R&T trajectories in cutting-edge AI research and development for MINDEF/SAF and WoG.
 - Research lead for horizontal teams in foundation models and agentic AI, and vertical pillars spanning intelligence, information operations, emerging AI and robotics autonomy.
 - Active in staff development, student mentoring and pre-university programme advisory (R@YDSP, AISG-DSO Research Programme).
 
-## Senior Member of Technical Staff — Computer Vision & Multimodal — Jan 2020 — Jul 2025 | DSO National Laboratories, Singapore
+## Senior Member of Technical Staff — Computer Vision & Multimodal — Jan 2020 to Jul 2025 | DSO National Laboratories, Singapore
 
 - Led technical teams driving research in computer vision, data science and multi-modal analysis.
 - System engineer and integration lead for machine vision deployment across a large-scale multi-camera anomaly detection infrastructure.
@@ -27,7 +27,7 @@ A 15+ year journey spanning signal processing, embedded systems, computer vision
 - Led the World of Science AI Workshop for pre-university students (jointly organised by DSTA and DSO).
 - Served as Singapore Science and Engineering Fair judge and mentor.
 
-## Senior Member of Technical Staff — Embedded Systems — Jan 2016 — Jan 2020 | DSO National Laboratories, Singapore
+## Senior Member of Technical Staff — Embedded Systems — Jan 2016 to Jan 2020 | DSO National Laboratories, Singapore
 
 - Designed and implemented low-power micro-embedded systems for smart sensing applications.
 - Developed firmware and hardware (C/C++) for TI-MSP430 micro-controllers and Cortex-series micro-processors.
@@ -36,14 +36,14 @@ A 15+ year journey spanning signal processing, embedded systems, computer vision
 - Designed PCB circuits to IPC Class 2 & 3 guidelines.
 - Managed MIL-SPEC environmental qualification and quality control.
 
-## Member of Technical Staff — Signal Processing — Aug 2010 — Dec 2015 | DSO National Laboratories, Singapore
+## Member of Technical Staff — Signal Processing — Aug 2010 to Dec 2015 | DSO National Laboratories, Singapore
 
 - Researched and developed acoustic signal processing techniques for target detection and classification.
 - Implemented real-time adaptive noise cancellation employing NLMS and RLS methods with rapid convergence.
 - Developed delay-and-sum and frequency-domain MVDR beamforming for speech and gunfire bearing estimation using novel zero-aperture acoustic vector sensors.
 - Created a weighted Stansfield DoA fusion algorithm for gunfire target localisation.
 
-## Nanyang Technological University — BEng Electrical & Electronics Engineering (Distinction) — 2006 — 2010 | Singapore
+## Nanyang Technological University — BEng Electrical & Electronics Engineering (Distinction) — 2006 to 2010 | Singapore
 
 - Graduated with Honours (Distinction).
 - **Design & Innovation Project (Distinction):** Localisation using wireless MESH network technology for an intra-WiFi network social mobile application.
