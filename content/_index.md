@@ -37,8 +37,6 @@ I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical St
 
 My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
 
-Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models.
-
-I'm particularly interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
+Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models. These days, I'm particularly interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
 
 </div>

@@ -19,6 +19,8 @@ links:
     description: "Singapore's national defence research organisation"
 ---
 
+<div style="text-align: justify; line-height: 1.75;">
+
 ## About Me
 
 I'm a **Lab Director** and **Principal Member of Technical Staff** at **DSO National Laboratories**, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
@@ -53,3 +55,5 @@ I'm interested in moving AI systems beyond *"next-token statistical predictors"*
 I've had the privilege of mentoring students on AI research projects that secured recognition at **SSEF** and **ISEF** — a constant reminder that curiosity scales faster than compute budgets.
 
 Beyond student mentorship, I work closely with pre-university interns, undergraduate researchers, graduate students, and PhD attachments. Most brainstorming sessions eventually drift into research ideation, hypothetical AI systems, and questionable *"just try lah and see what happens"* moments.
+
+</div>
