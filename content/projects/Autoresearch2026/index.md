@@ -190,10 +190,10 @@ Finally, validation-signal design emerged as the true bottleneck. A weak proxy c
 
 ---
 
-## What This Means for DSO
+## What This Means for us
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-The implications are significant. Autonomous research appears immediately valuable for domains dominated by augmentation-style optimisation and large exploratory search spaces. These systems act less as replacements for researchers and more as force multipliers sustaining long-horizon experimentation that humans often struggle to maintain consistently. One SME involved in the study remarked that work normally consuming days or weeks compressed into roughly a single day using OUROBOROS. That changes the economics of exploratory research considerably.
+The implications are significant. Autonomous research appears immediately valuable for domains dominated by augmentation-style optimisation and large exploratory search spaces. These systems act less as replacements for researchers and more as force multipliers sustaining long-horizon experimentation that humans often struggle to maintain consistently. Fellow team mates remarked that work normally consuming days or weeks compressed into roughly a single day using OUROBOROS. That changes the economics of exploratory research considerably.
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
