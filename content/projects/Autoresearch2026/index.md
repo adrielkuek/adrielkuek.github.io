@@ -15,7 +15,7 @@ tags:
   - AI Systems
 categories:
   - research
-cover: /images/ouroboros/cover.png
+cover: static\images\OUROBOROS\cover.png
 status: "completed"
 ---
 
