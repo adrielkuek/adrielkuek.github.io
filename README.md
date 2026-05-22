@@ -26,9 +26,7 @@ draft: false
 ### Lab Director · Principal Member of Technical Staff  
 ### AI Research · Foundation Models · Agentic Systems
 
-I work at the intersection of AI research and technical leadership — which is a fancy way of saying I spend an unhealthy amount of time thinking about optimisation problems, research strategy, and how to build the next operationally impactful AI capability.
-
-Currently leading research efforts in Foundation Models and emerging AI technologies at DSO National Laboratories.
+My core research interests are in Computer Vision and Multimodal AI technologies, where I kill my brain cells working at the intersection of text and visual modalities to develop novel architectures and training strategies for understanding and reasoning. In my technical leadership role, I shape and drive strategic research directions
 
 <br>
 
