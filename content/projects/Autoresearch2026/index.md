@@ -14,7 +14,7 @@ tags:
   - Multimodal AI
 categories:
   - research
-cover: \images\ouroboros\cover.png
+cover: /images/OUROBOROS/cover.png
 status: "completed"
 ---
 
@@ -30,7 +30,7 @@ The TLDR was straightforward. We ran the same automated-research problem — dis
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig1.png"
+    src="/images/OUROBOROS/fig1.png"
     alt="Figure 1"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -50,7 +50,7 @@ AutoResearch itself is conceptually simple. An AI coding agent autonomously runs
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig2.png"
+    src="/images/OUROBOROS/fig2.png"
     alt="Figure 2"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -74,7 +74,7 @@ The target domain was Foundation Model merging — recovering reasoning, instruc
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig3.png"
+    src="/images/OUROBOROS/fig3.png"
     alt="Figure 3"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -106,7 +106,7 @@ The single agent eventually discovered one genuinely strong idea after extensive
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig4.png"
+    src="/images/OUROBOROS/fig4.png"
     alt="Figure 4"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -126,7 +126,7 @@ Yet neither setting produced what we would consider paradigm-reframing discovery
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig5.png"
+    src="/images/OUROBOROS/fig5.png"
     alt="Figure 5"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -154,7 +154,7 @@ The outcome, in hindsight, is almost unsurprising. Evolution discovered this pri
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig6.png"
+    src="/images/OUROBOROS/fig6.png"
     alt="Figure 6"
     class="rounded-2xl shadow-xl mx-auto"
   />
@@ -166,7 +166,7 @@ The outcome, in hindsight, is almost unsurprising. Evolution discovered this pri
 
 <div class="my-10">
   <img 
-    src="/images/ouroboros/fig7.png"
+    src="/images/OUROBOROS/fig7.png"
     alt="Figure 7"
     class="rounded-2xl shadow-xl mx-auto"
   />
