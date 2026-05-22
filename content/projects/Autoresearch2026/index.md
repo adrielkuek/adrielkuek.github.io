@@ -72,18 +72,6 @@ Drawing inspiration from all three, we developed <strong>OUROBOROS</strong> — 
 The target domain was Foundation Model merging — recovering reasoning, instruction-following, or chat capabilities by carefully combining model weights and behaviours into a unified model. Or, in more lay terms, convincing several neural networks to cooperate without them behaving like a badly coordinated group project.
 </p>
 
-<div class="my-10">
-  <img 
-    src="/images/OUROBOROS/fig3.png"
-    alt="Figure 3"
-    class="rounded-2xl shadow-xl mx-auto"
-  />
-
-  <p class="text-center text-sm italic opacity-80 mt-3">
-    Figure 3: Reference workflows for automated research systems.
-  </p>
-</div>
-
 ---
 
 ## Our Experiment
