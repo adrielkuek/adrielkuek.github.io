@@ -33,10 +33,12 @@ author:
 
 <div style="text-align: justify; line-height: 1.75;">
 
-I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical Staff</strong> at <strong>DSO National Laboratories</strong>, Singapore's national defence research organisation. I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
+I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical Staff</strong> at <strong>DSO National Laboratories</strong>. In my day job, I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
 
-My core research interests are in Computer Vision and Multimodal AI technologies, working at the intersection of modalities to develop novel architectures and training strategies for predictive analysis, understanding and reasoning. In my technical leadership role, I shape and drive strategic AI research directions in DSO — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
+I've always been intrigued with the visual aspect of stuff. My core research interests are in Computer Vision and Multimodal AI technologies, where I kill my brain cells working at the intersection of text and visual modalities to develop novel architectures and training strategies for understanding and reasoning. In my technical leadership role, I shape and drive strategic research directions — which is just a fancy way of saying I spend an unhealthy amount of time developing slides and talking to people.
 
-Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning working on large-scale video analytics systems, computer vision research and building our sovereign foundation models. These days, I'm particularly interested in moving AI systems beyond *"next-token statistical predictors"* toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
+Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning. These days, beside building up sovereign Foundation Models, I'm particularly interested in moving AI systems beyond mere *"next-token statistical predictors"* toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
+
+Beyond work, I enjoy travelling (_very much to Japan_), visual aesthetics (_obviously_) - photography and vlogging with my lovely wife and rambunctious 3 kids 
 
 </div>
