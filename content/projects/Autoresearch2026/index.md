@@ -22,7 +22,7 @@ status: "completed"
 ## Back in March 2026...
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-Back in March 2026, when Andrej Karpathy released <em>AutoResearch</em>, it immediately felt like one of those deceptively small moments that quietly reshapes a field. A lightweight repo, a simple experimental loop — and suddenly the GPU wasn't just training models anymore, it was participating in the research process itself. There was much fanfare surrounding Karpathy’s viral tweet, but we pondered about its deeper impact to question whether autonomous AI research was merely another marketing stunt or something genuinely useful for us as researchers.
+Back in March 2026, when Andrej Karpathy released <em>AutoResearch</em>, it immediately felt like one of those deceptively small moments that quietly reshapes a field. A lightweight repo, a simple experimental loop — and suddenly the GPU wasn't just training models anymore, it was participating in the research process itself. Beyond the fanfare surrounding Karpathy’s viral tweet, it set us up to pondered about its deeper impact and to question whether autonomous AI research was merely another marketing stunt or something genuinely useful for us as researchers.
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
