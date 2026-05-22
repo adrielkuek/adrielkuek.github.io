@@ -1,5 +1,5 @@
 ---
-title: "OUROBOROS — Accelerating AI Research Through Iterative Evolution"
+title: "Accelerating AI Research Through Iterative Evolution"
 date: 2026-05-22T10:00:00+08:00
 draft: false
 slug: ouroboros-autoresearch
@@ -22,11 +22,11 @@ status: "completed"
 ## Back in March 2026...
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-Back in March 2026, when Andrej Karpathy released <em>AutoResearch</em>, it immediately felt like one of those deceptively small moments that quietly reshapes a field. A lightweight repo, a simple experimental loop — and suddenly the GPU wasn't just training models anymore, it was participating in the research process itself. There was much fanfare surrounding Karpathy’s viral tweet, but here in IE, we immediately cut through the fog and moved quickly to evaluate whether autonomous AI research was merely another marketing stunt or something genuinely useful for our research work in DSO.
+Back in March 2026, when Andrej Karpathy released <em>AutoResearch</em>, it immediately felt like one of those deceptively small moments that quietly reshapes a field. A lightweight repo, a simple experimental loop — and suddenly the GPU wasn't just training models anymore, it was participating in the research process itself. There was much fanfare surrounding Karpathy’s viral tweet, but we saw the deeper impact and questioned whether autonomous AI research was merely another marketing stunt or something genuinely useful for our research work.
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-The TLDR was straightforward. We ran the same automated-research problem — discovering a novel foundation-model merging method for post-training capability recovery — under two organisational regimes with roughly the same compute budget. One used a single-agent empirical loop. The other used a captain-led swarm of collaborative research teams operating in parallel. <em>The swarm produced more diverse and theoretically grounded augmentations; the single agent achieved the best validation-loss score.</em> While neither fully generalised on held-out benchmarks, the larger conclusion was difficult to ignore: <strong>autonomous iterative research has become practically useful</strong>, and perhaps slightly unsettling in the same way calculators once were to arithmetic teachers.
+The TLDR was straightforward. We hacked together the <em>Ouroboros</em> crack team and explored the same automated-research problem which we applied to a post-training model recovery regime — discovering a novel foundation-model merging method — under two organisational regimes with roughly the same compute budget. One used a single-agent empirical loop. The other used a captain-led swarm of collaborative research teams operating in parallel. <em>The swarm produced more diverse and theoretically grounded augmentations; the single agent achieved the best validation-loss score.</em> While neither fully generalised on held-out benchmarks, the larger conclusion was difficult to ignore: <strong>autonomous iterative research has become practically useful</strong>, and perhaps slightly unsettling in the same way calculators once were to arithmetic teachers.
 </p>
 
 <div style="margin: 3rem 0;">
@@ -100,11 +100,7 @@ Three public systems helped crystallize the space. Karpathy’s <em>AutoResearch
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-Drawing inspiration from all three, we developed <strong>OUROBOROS</strong> — a composite multi-team swarm framework with controlled self-evolution capabilities. Basically, AutoResearch on steroids. OUROBOROS occupies a different corner of the design space. Instead of a single agent doing everything, the framework spins up parallel research teams operating collaboratively across multiple phases, each paired with theorist agents generating formal derivations, QA agents enforcing directional discipline, and a Cross-Pollinator synthesis agent continuously hybridizing promising directions across teams.
-</p>
-
-<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-The target domain was Foundation Model merging — recovering reasoning, instruction-following, or chat capabilities by carefully combining model weights and behaviours into a unified model. Or, in more lay terms, convincing several neural networks to cooperate without them behaving like a badly coordinated group project.
+Drawing inspiration from all three,<strong>OUROBOROS</strong> was conceived — a composite multi-team swarm framework with controlled self-evolution capabilities. Basically, AutoResearch on steroids. <em>Ouroboros</em> occupies a different corner of the design space. Instead of a single agent doing everything, the framework spins up parallel research teams operating collaboratively across multiple phases, each paired with theorist agents generating formal derivations, QA agents enforcing directional discipline, and a Cross-Pollinator synthesis agent continuously hybridizing promising directions across teams. The target domain was Foundation Model merging — recovering reasoning, instruction-following, or chat capabilities by carefully combining model weights and behaviours into a unified model. Or, in more lay terms, convincing several neural networks to cooperate without them behaving like a badly coordinated group project.
 </p>
 
 ---
@@ -116,7 +112,7 @@ Our experiments used the GLM-5.1 (744B-A40B MoE) model as the base FM instantiat
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-OUROBOROS used the same merge datasets, hardware class, and optimization target, but wrapped the work inside a collaborative multi-phase swarm architecture. Three teams operated under a captain agent while theorists generated mathematical derivations, QA agents enforced task fidelity, and a Cross-Pollinator agent continuously hybridized promising directions. The key difference was therefore organisational rather than computational — which, somewhat amusingly, meant we accidentally rediscovered that research productivity is influenced by team structure even when the “team” is entirely synthetic.
+<em>Ouroboros</em> used the same merge datasets, hardware class, and optimization target, but wrapped the work inside a collaborative multi-phase swarm architecture. Three teams operated under a captain agent while theorists generated mathematical derivations, QA agents enforced task fidelity, and a Cross-Pollinator agent continuously hybridized promising directions. The key difference was therefore organisational rather than computational — which, somewhat amusingly, meant we accidentally rediscovered that research productivity is influenced by team structure even when the “team” is entirely synthetic.
 </p>
 
 ---
@@ -157,11 +153,11 @@ The single agent eventually discovered one genuinely strong idea after extensive
 </div>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-OUROBOROS instead produced three distinct methods in parallel: magnitude-band quantile selection, Fisher-information priors over RegMean matrices, and surprisal-weighted Gram matrices with truncated importance sampling. Each arrived with formal derivations, citations, pre-registered ablations, and theoretically grounded rationale. The distinction became obvious rather quickly: the single agent went deep in one promising direction, while the swarm explored multiple orthogonal directions simultaneously. In research terms, one became a specialist; the other became a peer-reviewed research committee.
+<em>Ouroboros</em> instead produced three distinct methods in parallel: magnitude-band quantile selection, Fisher-information priors over RegMean matrices, and surprisal-weighted Gram matrices with truncated importance sampling. Each arrived with formal derivations, citations, pre-registered ablations, and theoretically grounded rationale. The distinction became obvious rather quickly: the single agent went deep in one promising direction, while the swarm explored multiple orthogonal directions simultaneously. In research terms, one became a specialist; the other became a peer-reviewed research committee.
 </p>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-Yet neither setting produced what we would consider paradigm-reframing discovery. None stepped back to question whether the underlying merging objective itself could be observed through an entirely different lens. All methods remained mathematically defensible augmentations within the same RegMean-style family. Likely publishable. Certainly interesting. But still refinements rather than conceptual breakthroughs.
+Yet neither setting produced what we would consider paradigm-reframing discovery. <strong>None stepped back to question whether the underlying merging objective itself could be observed through an entirely different lens</strong>. All methods remained mathematically defensible augmentations within the same RegMean-style family. Likely publishable. Certainly interesting. But still refinements rather than conceptual breakthroughs.
 </p>
 
 <div style="margin: 3rem 0;">
@@ -235,7 +231,7 @@ The sharpest finding from the study was what we eventually started calling the <
 </div>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
-The outcome, in hindsight, is almost unsurprising. Evolution discovered this principle long before machine learning did. The swarm methods generalized better largely because OUROBOROS included a separate held-out evaluation phase instead of treating proxy metrics as absolute truth. That architectural decision mattered more than many of the algorithmic refinements themselves.
+The outcome, in hindsight, is almost unsurprising. Evolution discovered this principle long before machine learning did. The swarm methods generalized better largely because <em>Ouroboros</em> included a separate held-out evaluation phase instead of treating proxy metrics as absolute truth. That architectural decision mattered more than many of the algorithmic refinements themselves.
 </p>
 
 ---
