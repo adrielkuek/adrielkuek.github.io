@@ -184,7 +184,7 @@ Yet neither setting produced what we would consider paradigm-reframing discovery
       margin-top: 0.9rem;
       line-height: 1.6;
     ">
-    Figure 4: : Held-out benchmark scores (AIME26, IFBench, LCBv6, GPQA Diamond) for the five key methods. Colours match Figure 4 so the same method can be tracked between charts. Legend entries include each method's val-loss sum so the proxy ranking and the benchmark profile can be compared at a glance. Winsorize has the lowest val-loss sum but trails the swarm method and the baseline on GPQA Diamond and LCBv6.
+    Figure 4: : Held-out benchmark scores (AIME26, IFBench, LCBv6, GPQA Diamond) for the five key methods. Colours match Figure 3 so the same method can be tracked between charts. Legend entries include each method's val-loss sum so the proxy ranking and the benchmark profile can be compared at a glance. Winsorize has the lowest val-loss sum but trails the swarm method and the baseline on GPQA Diamond and LCBv6.
   </p>
 
 </div>
@@ -227,7 +227,9 @@ The sharpest finding from the study was what we eventually started calling the <
 </p>
 
 <div class="my-6 rounded-2xl border border-orange-300/30 bg-orange-100/10 px-6 py-5 text-[0.98rem] leading-8 shadow-lg backdrop-blur">
-  If an agent is given one number to minimise over 80 iterations, it will eventually discover configurations that exploit the proxy itself rather than the underlying capability.
+  <div class="text-2xl font-semibold leading-tight mb-4">
+    If an agent is given one number to minimise over 80 iterations, it will eventually discover configurations that exploit the proxy itself rather than the underlying capability.
+  </div>
 </div>
 
 <p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
