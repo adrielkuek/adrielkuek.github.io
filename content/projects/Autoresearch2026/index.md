@@ -4,14 +4,15 @@ date: 2026-05-22T10:00:00+08:00
 draft: false
 slug: ouroboros-autoresearch
 description: "Exploring autonomous AI research systems through multi-agent evolutionary experimentation."
-summary: "A deep dive into OUROBOROS — a multi-agent autonomous AI research swarm designed to accelerate foundation model experimentation and iterative scientific discovery."
+summary: "A multi-agent autonomous AI research swarm designed to accelerate foundation model experimentation and iterative scientific discovery."
 featured: true
 tags:
   - AI Research
   - Foundation Models
   - Agentic AI
   - AutoResearch
-  - Multimodal AI
+  - Multi-Agent Swarm
+  - Self-Evolution
 categories:
   - research
 cover: /images/OUROBOROS/cover.png
@@ -35,10 +36,12 @@ The TLDR was straightforward. We ran the same automated-research problem — dis
     alt="Figure 1"
     style="
       width: 100%;
+      max-width: 100%;
       height: auto;
       display: block;
       border-radius: 1rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
     "
   />
 
@@ -70,10 +73,12 @@ AutoResearch itself is conceptually simple. An AI coding agent autonomously runs
     alt="Figure 2"
     style="
       width: 100%;
+      max-width: 100%;
       height: auto;
       display: block;
       border-radius: 1rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
     "
   />
 
@@ -129,10 +134,12 @@ The single agent eventually discovered one genuinely strong idea after extensive
     alt="Figure 4"
     style="
       width: 100%;
+      max-width: 100%;
       height: auto;
       display: block;
       border-radius: 1rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
     "
   />
 
@@ -164,10 +171,12 @@ Yet neither setting produced what we would consider paradigm-reframing discovery
     alt="Figure 5"
     style="
       width: 100%;
+      max-width: 100%;
       height: auto;
       display: block;
       border-radius: 1rem;
       box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
     "
   />
 
@@ -181,5 +190,155 @@ Yet neither setting produced what we would consider paradigm-reframing discovery
     ">
     Figure 5: Held-out benchmark comparisons across methods.
   </p>
+
+</div>
+
+---
+
+## The Validation-Loss Trap
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+The sharpest finding from the study was what we eventually started calling the <strong>Validation-Loss Trap</strong>. Both systems optimized a single proxy metric: validation-loss sum across calibration datasets. The single-agent winsorize method dominated this proxy. However, when evaluated on held-out benchmarks like AIME26, IFBench, LCBv6, and GPQA Diamond, the ranking reversed. Winsorize excelled on the optimization target but underperformed significantly on GPQA and coding benchmarks.
+</p>
+
+<div class="my-6 rounded-2xl border border-orange-300/30 bg-orange-100/10 px-6 py-5 text-[0.98rem] leading-8 shadow-lg backdrop-blur">
+  If an agent is given one number to minimise over 80 iterations, it will eventually discover configurations that exploit the proxy itself rather than the underlying capability.
+</div>
+
+<div style="margin: 3rem 0;">
+
+  <img 
+    src="/images/OUROBOROS/fig6.png"
+    alt="Figure 6"
+    style="
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
+    "
+  />
+
+  <p style="
+      text-align: center;
+      font-size: 0.92rem;
+      font-style: italic;
+      opacity: 0.75;
+      margin-top: 0.9rem;
+      line-height: 1.6;
+    ">
+      Figure 6: Distribution of exploratory effort across both systems.
+  </p>
+
+</div>
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+The outcome, in hindsight, is almost unsurprising. Evolution discovered this principle long before machine learning did. The swarm methods generalized better largely because OUROBOROS included a separate held-out evaluation phase instead of treating proxy metrics as absolute truth. That architectural decision mattered more than many of the algorithmic refinements themselves.
+</p>
+
+---
+
+## Where AutoResearch Hurts Today
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+Several operational limitations became immediately clear. First, compute costs scale aggressively once moving beyond relatively cheap tasks like model merging. SFT, modality bridging, and synthetic-data pipelines rapidly enter thousand-GPU-hour territory where debugging cycles stretch into days. Second, modular codebases remain difficult for agents because they struggle with large cross-file action spaces. The single-agent setup succeeded partly because the editable surface area was tightly constrained.
+</p>
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+Third, long-horizon hygiene remains poor. Multi-week runs gradually accumulate stale scripts, abandoned worktrees, forgotten branches, and mounting context drift. Left unchecked, the filesystem eventually begins to resemble an archaeological record of misplaced optimism.
+</p>
+
+<div style="margin: 3rem 0;">
+
+  <img 
+    src="/images/OUROBOROS/fig7.png"
+    alt="Figure 7"
+    style="
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 1rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+      margin: 0 auto;
+    "
+  />
+
+  <p style="
+      text-align: center;
+      font-size: 0.92rem;
+      font-style: italic;
+      opacity: 0.75;
+      margin-top: 0.9rem;
+      line-height: 1.6;
+    ">
+      Figure 7: GPU-hour requirements across automatable ML tasks.
+  </p>
+
+</div>
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+Finally, validation-signal design emerged as the true bottleneck. A weak proxy combined with a fast agent simply produces incorrect conclusions more efficiently — which is perhaps the most AI-native failure mode imaginable.
+</p>
+
+<div class="my-6 rounded-2xl border border-orange-300/30 bg-orange-100/10 px-6 py-5 text-[0.98rem] leading-8 shadow-lg backdrop-blur">
+  <strong>The broader novelty gap therefore remains unresolved.</strong><br><br>
+
+  Current AutoResearch systems excel at <strong>augmentation novelty</strong> — elegant refinements, weighting schemes, priors, and optimisation tricks within existing paradigms.
+
+  What they do not yet achieve is <strong>reframing novelty</strong> — questioning whether the formulation, objective, or assumptions themselves are wrong.
+</div>
+
+---
+
+## What This Means for Us
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+The implications are significant. Autonomous research appears immediately valuable for domains dominated by augmentation-style optimisation and large exploratory search spaces. These systems act less as replacements for researchers and more as force multipliers sustaining long-horizon experimentation that humans often struggle to maintain consistently. Fellow teammates remarked that work normally consuming days or weeks compressed into roughly a single day using OUROBOROS. That changes the economics of exploratory research considerably.
+</p>
+
+<p style="text-align: justify; line-height: 1.9; margin-bottom: 1.6rem;">
+So while we have not fully automated scientific discovery, we may have entered a more interesting regime: one where capable researchers and engineers alike can explore research spaces at a tempo and scale previously impractical for small teams. And for a field where progress is often bottlenecked not by ideas, but by time, iteration, and sheer experimental patience, that already feels like a fairly consequential shift.
+</p>
+
+---
+
+## References
+
+<div style="line-height: 1.9;">
+
+<ol>
+
+<li style="margin-bottom: 1rem;">
+  <strong>AlphaEvolve: A Gemini-powered coding agent for designing advanced algorithms</strong><br>
+  <a href="https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms" target="_blank">
+    https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms
+  </a>
+</li>
+
+<li style="margin-bottom: 1rem;">
+  <strong>Andrej Karpathy — AutoResearch</strong><br>
+  <a href="https://github.com/karpathy/autoresearch" target="_blank">
+    https://github.com/karpathy/autoresearch
+  </a>
+</li>
+
+<li style="margin-bottom: 1rem;">
+  <strong>The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search</strong><br>
+  <a href="https://arxiv.org/abs/2504.08066" target="_blank">
+    https://arxiv.org/abs/2504.08066
+  </a>
+</li>
+
+<li style="margin-bottom: 1rem;">
+  <strong>AutoResearchClaw</strong><br>
+  <a href="https://github.com/aiming-lab/AutoResearchClaw" target="_blank">
+    https://github.com/aiming-lab/AutoResearchClaw
+  </a>
+</li>
+
+</ol>
 
 </div>
