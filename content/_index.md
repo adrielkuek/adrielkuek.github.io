@@ -34,7 +34,17 @@ author:
 <div style="text-align: justify; line-height: 1.8;">
 
   <p style="margin-bottom: 1.25rem;">
-    I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical Staff</strong> at <strong>DSO National Laboratories</strong>. In my day job, I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
+    I'm a <strong>Lab Director</strong> and <strong>Principal Member of Technical Staff</strong> at 
+    <strong>
+      <a 
+        href="https://www.dso.org.sg/" 
+        target="_blank" 
+        style="text-decoration: none; color: inherit;"
+      >
+        DSO National Laboratories
+      </a>
+    </strong>. 
+    In my day job, I lead research in DSO's Foundation Models development and emerging AI technologies for defence and national security applications.
   </p>
 
   <p style="margin-bottom: 1.25rem;">
@@ -46,7 +56,7 @@ author:
   </p>
 
   <p>
-    Beyond work, I enjoy travelling (<em>very much to Japan</em>), visual aesthetics (<em>obviously</em>) — photography and vlogging with my lovely wife and rambunctious 3 kids.
+    Beyond work, I enjoy visual aesthetics (<em>obviously</em>) — photography, vlogging and travelling with my lovely wife and 3 rambunctious kids.
   </p>
 
 </div>
