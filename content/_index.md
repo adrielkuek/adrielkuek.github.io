@@ -5,7 +5,7 @@ dismissible: false
 author:
   name: "Adriel Kuek"
   title: "Lab Director · Principal Member of Technical Staff"
-  description: "AI Research · Multimodal AI · Agentic Systems · Foundation Models · Autoresearch · Recursive Self-Improvement"
+  description: "AI Research · Foundation Models · Agentic Engineering · Recursive Self-Improvement - Building indigenous large models, multimodal AI, autoresearch and agentic systems at DSO National Laboratories."
   avatar: "/images/avatar.png"
   social:
     - name: "GitHub"
