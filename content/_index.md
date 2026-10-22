@@ -5,7 +5,7 @@ dismissible: false
 author:
   name: "Adriel Kuek"
   title: "Lab Director · Principal Member of Technical Staff"
-  description: "AI Research · Foundation Models · Agentic Engineering - Building sovereign large models, multimodal  AI and agentic systems at DSO National Laboratories."
+  description: "AI Research · Multimodal AI · Agentic Systems · Foundation Models · Autoresearch · Recursive Self-Improvement"
   avatar: "/images/avatar.png"
   social:
     - name: "GitHub"
@@ -52,7 +52,11 @@ author:
   </p>
 
   <p style="margin-bottom: 1.25rem;">
-    Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning. These days, beside building up sovereign Foundation Models, I'm particularly interested in moving AI systems beyond mere <em>"next-token statistical predictors"</em> toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
+    Over the past 15+ years, I've wandered through signal processing, embedded systems and firmware engineering, eventually landing in the wonderfully chaotic world of AI and machine learning. These days, alongside building sovereign Foundation Models, I'm interested in autoresearch and recursive self-improvement for AI models and agents: how can we develop enduring learning signals that help systems improve sustainably as they scale? More broadly, I'm interested in moving AI beyond mere <em>"next-token statistical predictors"</em> toward systems that are <strong>adaptive, collaborative, grounded, and operationally useful in complex environments</strong>.
+  </p>
+
+  <p style="margin-bottom: 1.25rem;">
+    I also care about giving back to academia and helping train the next generation of AI and ML engineers and scientists. I mentor interns, supervise students and post-docs, conduct AI training, and regularly review for top-tier conferences. At the 40th NeurIPS in 2026, I was recognised as a top reviewer for my contributions and rigour in advancing the scientific community.
   </p>
 
   <p>

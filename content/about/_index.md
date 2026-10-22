@@ -48,12 +48,16 @@ I'm interested in moving AI systems beyond *"next-token statistical predictors"*
 
 **Multimodal Understanding** — Bridging language, image, video, structured knowledge, and reasoning systems.
 
-**Autonomous Research** — Systems capable of planning, experimentation, evaluation, and iterative self-improvement.
+**Autonomous Research and Recursive Self-Improvement** — Developing AI models and agents that can plan, experiment, evaluate, and improve recursively. A question I keep returning to is how to create enduring learning signals that make those gains sustainable as systems scale.
 
 ## Mentorship & Research Guidance
 
 I've had the privilege of mentoring students on AI research projects that secured recognition at **SSEF** and **ISEF** — a constant reminder that curiosity scales faster than compute budgets.
 
 Beyond student mentorship, I work closely with pre-university interns, undergraduate researchers, graduate students, and PhD attachments. Most brainstorming sessions eventually drift into research ideation, hypothetical AI systems, and questionable *"just try lah and see what happens"* moments.
+
+## Awards & Recognition
+
+I was recognised as a **Top Reviewer** for the 40th NeurIPS in 2026. I served as a Main Reviewer, evaluating submissions and contributing to the rigour and scholarly standards of the conference.
 
 </div>
